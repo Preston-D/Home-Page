@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(16, 14, 19);
+  color: rgb(211, 230, 211);
+  font-family: roboto, sans-serif;
+  overflow: hidden;
+}
+#wrapper {
+  border: 1px solid yellow;
+  height: 47vmax;
+  width: 100%;
+  display: absolute;
+}
+
+/* --------------------Greeting Text */
+
+#greetingContainer {
+  display: grid;
+  border: 1px solid red;
+  height: 15%;
+  width: 100%;
+  justify-content: center;
+}
+
+#greeting {
+  padding-top: 2%;
+  border: 1px solid blue;
+  font-size: 4em;
+}
+
+/* --------------------Canvas */
+#canvas {
+  display: none;
+}
+
+/* --------------------Common Links */
+#commonLinks1 {
+  border: 1px solid mediumseagreen;
+  width: 33%;
+  height: 85%;
+  float: left;
+}
+
+/* --------------------Charts */
+#chartContainer {
+  border: 1px solid royalblue;
+  width: 66%;
+  height: 85%;
+  float: right;
+  display: absolute;
+}
+#chart1 {
+  width: 49.5%;
+  height: 100%;
+  float: left;
+}
+#chart2 {
+  width: 49.5%;
+  height: 100%;
+  float: right;
+}
